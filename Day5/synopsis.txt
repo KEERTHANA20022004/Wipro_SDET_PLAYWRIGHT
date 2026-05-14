@@ -1,0 +1,44 @@
+Day 5 Synopsis
+
+1. Async & Await  
+Used to handle asynchronous operations in a cleaner, synchronous-like way.  
+async makes a function return a promise, and await pauses execution until the promise resolves.
+
+2. setTimeout & setInterval  
+setTimeout runs a function once after a specified delay.  
+setInterval repeatedly runs a function at a fixed time interval.
+
+3. clearTimeout & clearInterval  
+clearTimeout is used to cancel a scheduled setTimeout before it executes.  
+clearInterval stops a repeating function created by setInterval.
+
+4. OOPs in JavaScript  
+JavaScript supports Object-Oriented Programming using objects, classes, and prototypes.  
+It includes concepts like encapsulation, inheritance, and polymorphism for structured coding.
+
+Encapsulation  
+Binding data and methods together inside a single unit (class).  
+It helps in restricting direct access to data and improves security.
+
+Inheritance  
+A mechanism where one class acquires properties and methods of another class.  
+It helps in code reusability and reduces duplication.
+
+Polymorphism  
+The ability of a method to take different forms based on context.  
+Same method name can have different behavior in different classes.
+
+Abstraction  
+Hiding internal implementation details and showing only essential features.  
+It helps in reducing complexity and improves code maintainability.
+
+Class  
+A blueprint for creating objects with predefined properties and methods.  
+It acts as a template to define structure and behavior.
+
+Constructor  
+A special method used to initialize object properties when an object is created.  
+It is automatically called when a new object is instantiated.
+
+
+
