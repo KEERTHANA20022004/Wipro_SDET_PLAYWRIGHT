@@ -1,0 +1,20 @@
+Day 12 Synopsis
+Playwright Introduction
+
+Learned about Playwright, a browser automation and testing tool used to compare actual results with expected results in web applications. Understood how automated testing helps verify website functionality and improves application reliability.
+
+Playwright Setup in VS Code
+
+Configured Visual Studio Code for Playwright testing using commands like npm install playwright and npx playwright test. Explored the generated Playwright project structure, configuration files, sample test files, and updated the .gitignore file to exclude node_modules.
+
+Website Navigation and URL Testing
+
+Created a Playwright test script to open the TechX website using page.goto(). Used getByRole() to identify the “Request” button, applied nth(1) to select the correct element when multiple matches were present, and performed a click action to navigate to the contact page. Verified successful navigation by checking whether the current URL matched the expected URL using expect(page.url()).toBe().
+
+Title Verification Testing
+
+Worked with Playwright’s built-in assertion methods to validate webpage titles. Opened the Playwright official website and used toHaveTitle(/Playwright/) to confirm that the page title contained the word “Playwright”.
+
+Element Visibility Testing
+
+Automated user interaction by clicking the “Get Started” link using getByRole(). After navigation, verified that the “Installation” heading was visible on the page using toBeVisible(), ensuring that the correct content loaded successfully after the click action.
