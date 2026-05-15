@@ -1,0 +1,58 @@
+Day 13 Synopsis
+
+Today, I learned how to create a simple web application using Express.js and perform automation testing using Playwright.
+
+Initially, I created the Playwright project using:
+
+npm init playwright@latest
+
+Then I installed the required packages:
+
+npm i express
+npm i path
+npm i body-parser
+npm i dotenv
+
+Inside the Day13 folder, a web application was created under the webapp folder. In that web application, Express.js was configured and required dependencies were installed.
+
+A public folder was created containing:
+- index.html
+- login.html
+- login.css
+
+The login page was created for checking login form functionality.
+
+An .env file was used to store the PORT value:
+
+PORT=23000
+
+The Express server was configured in index.js to serve static files and run the application.
+
+A reusable async function named testLoginForm was created for Playwright automation testing. The function locates username, password, login button, and message elements, fills the login details, clicks the login button, and returns the displayed message text. The function was exported using export default for reusability.
+
+Playwright was used to automate and test the login functionality. Multiple test cases were executed using different username and password combinations.
+
+The test script:
+- Opened the login page
+- Filled login credentials
+- Clicked the login button
+- Validated the displayed message using assertions
+
+Different login scenarios such as valid credentials, invalid credentials, and validation errors were tested.
+
+Test cases were executed in:
+- Chromium
+- Firefox
+- WebKit
+
+The testing verified whether the login page and form were working properly across different browsers.
+
+By the end of Day 13, I learned:
+- Playwright project setup
+- Express.js server creation
+- Static file handling
+- Environment variable usage
+- Login form testing
+- Reusable Playwright functions
+- Data-driven testing
+- Cross-browser automation testing using Playwright
