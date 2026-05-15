@@ -1,3 +1,4 @@
+
 Day 12 Synopsis
 Playwright Introduction
 
@@ -16,5 +17,4 @@ Title Verification Testing
 Worked with Playwright’s built-in assertion methods to validate webpage titles. Opened the Playwright official website and used toHaveTitle(/Playwright/) to confirm that the page title contained the word “Playwright”.
 
 Element Visibility Testing
-
 Automated user interaction by clicking the “Get Started” link using getByRole(). After navigation, verified that the “Installation” heading was visible on the page using toBeVisible(), ensuring that the correct content loaded successfully after the click action.

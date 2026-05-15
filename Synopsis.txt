@@ -517,6 +517,16 @@ number
 
 So before using string methods or number operations, we check the type.
 
+==================================================================================================================
+
+Day 12 Synopsis
+Playwright Introduction
+
+Learned about Playwright, a testing tool used to compare actual values with expected values for application testing. Understood the basics of automation testing and test execution.
+
+Playwright Setup in VS Code
+
+Installed and configured Visual Studio Code for Playwright testing using commands like npm install playwright and npx playwright test. Explored generated test cases, Playwright configuration files, and updated the .gitignore file to include node_modules.
 
                                                                 
 
