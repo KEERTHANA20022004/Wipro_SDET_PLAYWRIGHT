@@ -49,3 +49,41 @@ test.fixme('test', async ({ page }) => {
 });
 
 // test.slow(); // triple the timeout 30 seconds
+
+// for my reference
+
+// import { test, expect } from '@playwright/test';
+
+// test('Advantage stable search + product flow', async ({ page }) => {
+
+//   // 1. Open website
+//   await page.goto('https://www.advantageonlineshopping.com/#/');
+
+//   // 2. Click search icon
+//   await page.click('#menuSearch');
+
+//   // 3. WAIT for UI animation
+//   await page.waitForTimeout(2000);
+
+//   // 4. Type directly using page keyboard (SAFE METHOD)
+//   await page.keyboard.type('laptop');
+
+//   // 5. Press Enter
+//   await page.keyboard.press('Enter');
+
+//   // 6. Wait for results
+//   await page.waitForSelector('.productName', { timeout: 10000 });
+
+//   // 7. Click first product
+//   await page.locator('.productName').first().click();
+
+//   // 8. Add to cart
+//   await page.click('button[name="save_to_cart"]');
+
+//   // 9. Open cart
+//   await page.click('#shoppingCartLink');
+
+//   // 10. Verify cart
+//   await expect(page.locator('#shoppingCart')).toBeVisible();
+
+// });
